@@ -4,9 +4,14 @@
         <meta charset="utf-8"/>
         <script type="text/javascript" src="click.js"></script>
     </head>
-<body>
-    <button onclick="">Clique sur le bouton</button>
-  
-</body>
 
+    <body>
+        <div onclick="this.style.width='0%'; this.style.paddingLeft='50%'"
+             ondblclick="this.style.width='500px'; this.style.paddingLeft='0%'">
+            <p>Clique sur le bouton</p>
+            <p>test test test test test test test test test test test</p>
+            <p>test test test test test test test test test test test</p>
+        </div>
+        <div ondblclick="this.style.width='100%'; this.style.paddingLeft='0%'"></div>
+    </body>
 </html>
